@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.car{
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f2f2;
+    padding-top:170px;
+}
+.car-container{
+    width: 920px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.car-box1{
+    width: 307px;
+    height: 500px;
+    background-color: #E28625;
+    padding: 48px;
+    border-radius: 8px 0 0 8px;
+}
+.car-box2{
+    width: 307px;
+    height: 500px;
+    background-color: #006971;
+    padding: 48px;
+}
+.car-box3{
+    width: 307px;
+    height: 500px;
+    background-color: #004140;
+    padding: 48px;
+    border-radius: 0 8px 8px 0;
+}
+.car-img{
+    margin-bottom: 35px;
+}
+.car-title{
+    color: #F2F2F2;
+    font-family: "Big Shoulders Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.car-text{
+    color: #FFF;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    margin-bottom: 83px;
+}
+.car-btn{
+    padding-top: 10px;
+    width: 146px;
+    height: 48px;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 25px;
+    border: none;
+    background-color: #F2F2F2;
+    transition: background-color 0.5s, color 0.5s;
+}
+.car-link{
+    color: #E28625;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+}
+.car-link2{
+    color: #006971;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+}
+.car-link3{
+    color: #004140;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+}
+.car-btn:hover{
+    background-color: transparent;
+    border: 2px solid #f2f2f2;
+    color: #f2f2f2;
+}
